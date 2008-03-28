@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/java_memcached-release_1.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3.8.1"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/jboss-4.0.3SP1/server/default/lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/jboss-4.0.3SP1/server/default/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/jboss-4.0.3SP1/server/default/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/tomcat-5.5.20/server/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/tomcat-5.5.20/server/lib/catalina-optional.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/tomcat-5.5.20/common/lib/naming-resources.jar"/>
+	<classpathentry kind="lib" path="/Users/tim/devtools/tomcat-5.5.20/server/lib/tomcat-util.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

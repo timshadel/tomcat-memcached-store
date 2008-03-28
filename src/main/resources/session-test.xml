@@ -1,0 +1,17 @@
+<!--
+
+    Context configuration file for the Tomcat Manager Web App
+
+    $Id: manager.xml 303123 2004-08-26 17:03:35Z remm $
+
+-->
+
+
+<Context docBase="${catalina.home}/server/webapps/session-test">
+  	<Valve className="com.timshadel.tomcat.session.store.memcached.AlwaysPassivateValve"/>
+
+	  <Manager className="com.timshadel.tomcat.session.store.memcached.MemcachedManager" distributable="true">
+		<Store className="com.timshadel.tomcat.session.store.memcached.MemcachedStore" servers="localhost:11211, localhost:11221"/>
+	  </Manager>
+
+</Context>
