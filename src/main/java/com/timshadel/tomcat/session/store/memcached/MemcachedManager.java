@@ -36,6 +36,7 @@ public class MemcachedManager extends ManagerBase {
 				session.setManager(this);
 				session.tellNew();
 			}
+			session.setId(sessionId);
 			session.setManager(this);
 			add(session);
 			session.activate();
